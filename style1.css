@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica;     
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.row {
+    width: 100%;
+}
+body{
+    background-color: rgb(159, 185, 235);
+}
+.chicken-in{
+    float: right;
+    border: 1px black solid;
+    font-size: 1.2em;
+    position: relative;
+    top: -18px;
+    left: 2px;
+    background-color: rgb(250, 113, 33);
+    
+}
+
+.beef-in{
+    float: right;
+    border: 1px black solid;
+    font-size: 1.2em;
+    position: relative;
+    top: -18px;
+    left: 2px;
+    background-color: rgb(245, 59, 96);
+
+}
+
+.sushi-in{
+    float: right;
+    border: 1px black solid;
+    font-size: 1.2em;
+    position: relative;
+    top: -18px;
+    left: 2px;
+    background-color: rgb(63, 110, 251);
+
+}
+
+
+.chicken{
+    border: 2px black solid;
+    
+    background-color: rgb(231, 185, 114);
+    float: left;
+    height: 150px;
+    padding: 1px;
+    
+}
+.beef{
+    border: 2px black solid;
+    background-color: rgb(220, 174, 106);
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    padding: 1px;
+}
+.sushi{
+    border: 2px black solid;
+
+    background-color: rgb(218, 175, 112);
+    float: left;
+    height: 150px;
+    padding: 1px;
+
+}
+@media(min-width:992px)
+{
+    .long{
+        width: 33.33%;
+    }
+}
+@media(min-width:768px) and (max-width:991px)
+{
+    .med{
+        width: 50%;
+    }
+    .med-3{
+        width: 100%;
+    }
+}
+@media (max-width:767px)
+{
+    .smol{
+        width: 100%;
+    }
+}
